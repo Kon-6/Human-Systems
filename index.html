@@ -1,17 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Hello World</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Awesome Website</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>Human Systems</h1>
-<p>-Has multiple links to github.</p>
-<p>-Has multiple extensions</p>
-<p>-Access to projects</p>
-<p>-Create new files/projects</p>
-<p>-Helps debug/errors</p>
-<p>-Scripting</p>
-<p>-Tunnels view documentation for connecting to another PC</p>
+    <header>
+        <div class="logo">✨ MySite</div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#features">Features</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <span class="badge">🚀 Welcome to the future</span>
+
+                <h1>
+                    Make Your Ideas
+                    <span>Come Alive.</span>
+                </h1>
+
+                <p>
+                    A colorful, modern website template built with
+                    HTML, CSS, and JavaScript.
+                </p>
+
+                <div class="buttons">
+                    <button id="myButton" class="primary-btn">
+                        Get Started 🚀
+                    </button>
+
+                    <a href="#features" class="secondary-btn">
+                        Explore More
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-card">
+                <div class="card-icon">💡</div>
+                <h3>Creative</h3>
+                <p>Beautiful designs made simple.</p>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <span class="section-label">ABOUT US</span>
+            <h2>Built to stand out.</h2>
+
+            <p>
+                This template gives you a clean starting point for
+                your next project. Customize the colors, text,
+                animations, and content however you want.
+            </p>
+        </section>
+
+        <section id="features" class="features">
+            <span class="section-label">FEATURES</span>
+            <h2>Why you'll love it</h2>
+
+            <div class="feature-grid">
+
+                <div class="feature-card">
+                    <div class="feature-icon purple">🎨</div>
+                    <h3>Beautiful Design</h3>
+                    <p>Bright colors, gradients, shadows, and modern styling.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon blue">⚡</div>
+                    <h3>Fast & Simple</h3>
+                    <p>Lightweight code that's easy to understand and customize.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon pink">🔥</div>
+                    <h3>Interactive</h3>
+                    <p>Use JavaScript to make your website come alive.</p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Made with 💜 and a little bit of ✨</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
